@@ -1,0 +1,3 @@
+# Gitignore configuration for Shivam's portfolio project
+node_modules
+.env
