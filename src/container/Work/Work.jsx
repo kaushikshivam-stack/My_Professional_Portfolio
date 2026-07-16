@@ -20,6 +20,7 @@ import projectPatisserie from '../../assets/project_patisserie.png';
 
 const projectImages = {
   'Modern UI/UX Website': projectUiux,
+  'Origin.Ai': projectUiux,
   'Ewalle wallet app': projectEwalle,
   SpaceX: projectSpacex,
   'Web3.0 Project': projectWeb3,
@@ -35,10 +36,10 @@ const projectImages = {
 /* ── Hardcoded fallback data (shown when Sanity CORS is blocked) ── */
 const fallbackWorks = [
   {
-    title: 'Modern UI/UX Website',
-    description: 'A modern UI/UX website for a startup company.',
-    projectLink: 'https://google.com',
-    codeLink: 'https://google.com',
+    title: 'Origin.Ai',
+    description: 'A next-generation AI platform to accelerate innovation with advanced intelligence, blockchain tech, and cloud solutions.',
+    projectLink: 'https://kaushikshivam-stack.github.io/Origin-Ai/',
+    codeLink: 'https://github.com/kaushikshivam-stack/Origin-Ai',
     tags: ['UI/UX', 'Web App', 'React JS'],
   },
   {
@@ -107,6 +108,18 @@ const fallbackWorks = [
 ];
 
 const projectOverrides = {
+  'Modern UI/UX Website': {
+    title: 'Origin.Ai',
+    description: 'A next-generation AI platform to accelerate innovation with advanced intelligence, blockchain tech, and cloud solutions.',
+    projectLink: 'https://kaushikshivam-stack.github.io/Origin-Ai/',
+    codeLink: 'https://github.com/kaushikshivam-stack/Origin-Ai',
+  },
+  'Origin.Ai': {
+    title: 'Origin.Ai',
+    description: 'A next-generation AI platform to accelerate innovation with advanced intelligence, blockchain tech, and cloud solutions.',
+    projectLink: 'https://kaushikshivam-stack.github.io/Origin-Ai/',
+    codeLink: 'https://github.com/kaushikshivam-stack/Origin-Ai',
+  },
   'Sweet Shop': {
     title: 'Patisserie Shop',
     description: 'A premium custom cakes bakery and patisserie website featuring rich UI/UX animations and clean layouts.',
