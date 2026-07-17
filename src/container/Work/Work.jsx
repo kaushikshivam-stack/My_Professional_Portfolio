@@ -23,6 +23,7 @@ const projectImages = {
   'Origin.Ai': projectUiux,
   'Ewalle wallet app': projectEwalle,
   SpaceX: projectSpacex,
+  'AI Interview Coach': projectSpacex,
   'Web3.0 Project': projectWeb3,
   'Apex Fitness': projectApexfitness,
   'Blog Website': projectBlog,
@@ -50,11 +51,11 @@ const fallbackWorks = [
     tags: ['Mobile App', 'UI/UX', 'React JS'],
   },
   {
-    title: 'SpaceX',
-    description: 'SpaceX CRUD API built with Node JS.',
-    projectLink: 'https://google.com',
-    codeLink: 'https://google.com',
-    tags: ['Web App'],
+    title: 'AI Interview Coach',
+    description: 'An AI-powered interview preparation assistant that analyzes resumes for ATS score and conducts personalized voice mock interviews.',
+    projectLink: 'https://ai-interview-assistant-sooty-kappa.vercel.app/',
+    codeLink: 'https://github.com/kaushikshivam-stack/ai-interview-assistant',
+    tags: ['Web App', 'React JS', 'UI/UX'],
   },
   {
     title: 'Apex Fitness',
@@ -105,6 +106,18 @@ const projectOverrides = {
     description: 'A next-generation AI platform to accelerate innovation with advanced intelligence, blockchain tech, and cloud solutions.',
     projectLink: 'https://kaushikshivam-stack.github.io/Origin-Ai/',
     codeLink: 'https://github.com/kaushikshivam-stack/Origin-Ai',
+  },
+  SpaceX: {
+    title: 'AI Interview Coach',
+    description: 'An AI-powered interview preparation assistant that analyzes resumes for ATS score and conducts personalized voice mock interviews.',
+    projectLink: 'https://ai-interview-assistant-sooty-kappa.vercel.app/',
+    codeLink: 'https://github.com/kaushikshivam-stack/ai-interview-assistant',
+  },
+  'AI Interview Coach': {
+    title: 'AI Interview Coach',
+    description: 'An AI-powered interview preparation assistant that analyzes resumes for ATS score and conducts personalized voice mock interviews.',
+    projectLink: 'https://ai-interview-assistant-sooty-kappa.vercel.app/',
+    codeLink: 'https://github.com/kaushikshivam-stack/ai-interview-assistant',
   },
   'Web3.0 Project': {
     title: 'Apex Fitness',
