@@ -77,7 +77,11 @@ const Header = ({ theme }) => {
         transition={{ duration: 0.5, delayChildren: 0.5 }}
         className="app__header-img"
       >
-        <img src={theme === 'dark' ? images.profileDark : images.profile} alt="profile_bg" />
+        <img
+          src={theme === 'dark' ? images.profileDark : images.profile}
+          alt="profile_bg"
+          className={theme === 'dark' ? 'profile-dark-img' : ''}
+        />
         <motion.img
           whileInView={{ scale: [0, 1] }}
           transition={{ duration: 1, ease: 'easeInOut' }}

@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.d201af67.css",
-    "main.js": "/static/js/main.e48731e0.js",
+    "main.css": "/static/css/main.9b0b51bc.css",
+    "main.js": "/static/js/main.a5c136e9.js",
     "static/media/skill_backend.png": "/static/media/skill_backend.9094352585d4adc489a9.png",
     "static/media/skill_react_native.png": "/static/media/skill_react_native.e818bcf7b1a504ed0f61.png",
     "static/media/skill_frontend.png": "/static/media/skill_frontend.a3ecb9a275e3fff29c9d.png",
@@ -50,11 +50,11 @@
     "static/media/skype.png": "/static/media/skype.c8d7ee175da5b4c8a8ab.png",
     "index.html": "/index.html",
     "static/media/circle.svg": "/static/media/circle.ae5f84b3853b9e34aa83cf8dada715c5.svg",
-    "main.d201af67.css.map": "/static/css/main.d201af67.css.map",
-    "main.e48731e0.js.map": "/static/js/main.e48731e0.js.map"
+    "main.9b0b51bc.css.map": "/static/css/main.9b0b51bc.css.map",
+    "main.a5c136e9.js.map": "/static/js/main.a5c136e9.js.map"
   },
   "entrypoints": [
-    "static/css/main.d201af67.css",
-    "static/js/main.e48731e0.js"
+    "static/css/main.9b0b51bc.css",
+    "static/js/main.a5c136e9.js"
   ]
 }
