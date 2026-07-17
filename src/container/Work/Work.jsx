@@ -17,6 +17,7 @@ import projectStarbucks from '../../assets/project_starbucks.png';
 import projectCommunity from '../../assets/project_community.png';
 import projectSweet from '../../assets/project_sweet.png';
 import projectPatisserie from '../../assets/project_patisserie.png';
+import projectAurabrew from '../../assets/project_aurabrew.png';
 
 const projectImages = {
   'Modern UI/UX Website': projectUiux,
@@ -25,6 +26,7 @@ const projectImages = {
   SpaceX: projectSpacex,
   'Web3.0 Project': projectWeb3,
   'Blog Website': projectBlog,
+  'Aura Brew': projectAurabrew,
   'MERN Memories': projectMern,
   'Shareme Website': projectShareme,
   'Starbucks Clone': projectStarbucks,
@@ -64,10 +66,10 @@ const fallbackWorks = [
     tags: ['Web App', 'React JS'],
   },
   {
-    title: 'Blog Website',
-    description: 'A blog website built with React JS.',
-    projectLink: 'https://google.com',
-    codeLink: 'https://google.com',
+    title: 'Aura Brew',
+    description: 'A premium artisanal coffee brand website showcasing ethical sourcing, micro-batch roasting, and world-class craft.',
+    projectLink: 'https://kaushikshivam-stack.github.io/Aura-Brew-Coffee/',
+    codeLink: 'https://github.com/kaushikshivam-stack/Aura-Brew-Coffee',
     tags: ['UI/UX', 'Web App', 'React JS'],
   },
   {
@@ -119,6 +121,18 @@ const projectOverrides = {
     description: 'A next-generation AI platform to accelerate innovation with advanced intelligence, blockchain tech, and cloud solutions.',
     projectLink: 'https://kaushikshivam-stack.github.io/Origin-Ai/',
     codeLink: 'https://github.com/kaushikshivam-stack/Origin-Ai',
+  },
+  'Blog Website': {
+    title: 'Aura Brew',
+    description: 'A premium artisanal coffee brand website showcasing ethical sourcing, micro-batch roasting, and world-class craft.',
+    projectLink: 'https://kaushikshivam-stack.github.io/Aura-Brew-Coffee/',
+    codeLink: 'https://github.com/kaushikshivam-stack/Aura-Brew-Coffee',
+  },
+  'Aura Brew': {
+    title: 'Aura Brew',
+    description: 'A premium artisanal coffee brand website showcasing ethical sourcing, micro-batch roasting, and world-class craft.',
+    projectLink: 'https://kaushikshivam-stack.github.io/Aura-Brew-Coffee/',
+    codeLink: 'https://github.com/kaushikshivam-stack/Aura-Brew-Coffee',
   },
   'Sweet Shop': {
     title: 'Patisserie Shop',
