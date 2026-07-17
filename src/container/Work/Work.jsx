@@ -30,6 +30,7 @@ const projectImages = {
   'Blog Website': projectBlog,
   'Aura Brew': projectAurabrew,
   'Starbucks Clone': projectStarbucks,
+  'FuturePath Consulting': projectStarbucks,
   'Community App': projectCommunity,
   'AuraHealth Clinic': projectCommunity,
   'Sweet Shop': projectSweet,
@@ -74,10 +75,10 @@ const fallbackWorks = [
     tags: ['UI/UX', 'Web App', 'React JS'],
   },
   {
-    title: 'Starbucks Clone',
-    description: 'A Starbucks clone built with React JS.',
-    projectLink: 'https://google.com',
-    codeLink: 'https://google.com',
+    title: 'FuturePath Consulting',
+    description: 'A premium professional consulting and business strategy website with interactive service modules, career advice, and contact portals.',
+    projectLink: 'https://kaushikshivam-stack.github.io/-futurepath-consulting/',
+    codeLink: 'https://github.com/kaushikshivam-stack/-futurepath-consulting',
     tags: ['Web App', 'React JS', 'UI/UX'],
   },
   {
@@ -180,6 +181,18 @@ const projectOverrides = {
     description: 'India\'s smartest job discovery platform featuring advanced search filters, resume tools, and comprehensive job vacancy listings.',
     projectLink: 'https://kaushikshivam-stack.github.io/CareerHive/',
     codeLink: 'https://github.com/kaushikshivam-stack/CareerHive',
+  },
+  'Starbucks Clone': {
+    title: 'FuturePath Consulting',
+    description: 'A premium professional consulting and business strategy website with interactive service modules, career advice, and contact portals.',
+    projectLink: 'https://kaushikshivam-stack.github.io/-futurepath-consulting/',
+    codeLink: 'https://github.com/kaushikshivam-stack/-futurepath-consulting',
+  },
+  'FuturePath Consulting': {
+    title: 'FuturePath Consulting',
+    description: 'A premium professional consulting and business strategy website with interactive service modules, career advice, and contact portals.',
+    projectLink: 'https://kaushikshivam-stack.github.io/-futurepath-consulting/',
+    codeLink: 'https://github.com/kaushikshivam-stack/-futurepath-consulting',
   },
 };
 
