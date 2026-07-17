@@ -11,8 +11,6 @@ import projectEwalle from '../../assets/project_ewalle.png';
 import projectSpacex from '../../assets/project_spacex.png';
 import projectWeb3 from '../../assets/project_web3.png';
 import projectBlog from '../../assets/project_blog.png';
-import projectMern from '../../assets/project_mern.png';
-import projectShareme from '../../assets/project_shareme.png';
 import projectStarbucks from '../../assets/project_starbucks.png';
 import projectCommunity from '../../assets/project_community.png';
 import projectSweet from '../../assets/project_sweet.png';
@@ -29,8 +27,6 @@ const projectImages = {
   'Apex Fitness': projectApexfitness,
   'Blog Website': projectBlog,
   'Aura Brew': projectAurabrew,
-  'MERN Memories': projectMern,
-  'Shareme Website': projectShareme,
   'Starbucks Clone': projectStarbucks,
   'Community App': projectCommunity,
   'Sweet Shop': projectSweet,
@@ -73,20 +69,6 @@ const fallbackWorks = [
     projectLink: 'https://kaushikshivam-stack.github.io/Aura-Brew-Coffee/',
     codeLink: 'https://github.com/kaushikshivam-stack/Aura-Brew-Coffee',
     tags: ['UI/UX', 'Web App', 'React JS'],
-  },
-  {
-    title: 'MERN Memories',
-    description: 'A MERN app built with React JS & MongoDB.',
-    projectLink: 'https://google.com',
-    codeLink: 'https://google.com',
-    tags: ['Web App', 'React JS'],
-  },
-  {
-    title: 'Shareme Website',
-    description: 'Beautiful pinterest-like website using React JS.',
-    projectLink: 'https://google.com',
-    codeLink: 'https://google.com',
-    tags: ['Web App', 'React JS', 'UI/UX'],
   },
   {
     title: 'Starbucks Clone',
@@ -199,8 +181,10 @@ const Work = () => {
 
     client.fetch(query).then((data) => {
       if (data && data.length > 0) {
-        setWorks(data);
-        setFilterWork(data);
+        const hiddenCards = ['MERN Memories', 'Shareme Website'];
+        const filtered = data.filter((w) => !hiddenCards.includes(w.title));
+        setWorks(filtered);
+        setFilterWork(filtered);
       } else {
         setWorks(fallbackWorks);
         setFilterWork(fallbackWorks);
