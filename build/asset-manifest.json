@@ -1,11 +1,10 @@
 {
   "files": {
     "main.css": "/static/css/main.d201af67.css",
-    "main.js": "/static/js/main.1c99d0dd.js",
+    "main.js": "/static/js/main.4460f962.js",
     "static/media/skill_backend.png": "/static/media/skill_backend.9094352585d4adc489a9.png",
     "static/media/skill_react_native.png": "/static/media/skill_react_native.e818bcf7b1a504ed0f61.png",
     "static/media/skill_frontend.png": "/static/media/skill_frontend.a3ecb9a275e3fff29c9d.png",
-    "static/media/project_futurepath.png": "/static/media/project_futurepath.471a000c7dff4739a8d5.png",
     "static/media/client_jane.png": "/static/media/client_jane.ab5dddc770b537214cc0.png",
     "static/media/about04.png": "/static/media/about04.fa7b3a72ed32b0e25bfb.png",
     "static/media/project_apexfitness.png": "/static/media/project_apexfitness.61aba05c14f07f828c6b.png",
@@ -19,6 +18,7 @@
     "static/media/project_aurabrew.png": "/static/media/project_aurabrew.5e0a4c3e8bd5fbcbc10d.png",
     "static/media/about02.png": "/static/media/about02.7a3df03410ee756268ec.png",
     "static/media/project_web3.png": "/static/media/project_web3.d1a9132cd4c13019695e.png",
+    "static/media/project_futurepath.png": "/static/media/project_futurepath.9129c296da5b7a42ddf2.png",
     "static/media/client_kenny.png": "/static/media/client_kenny.42f8b36f06e6b7a5be2e.png",
     "static/media/project_blog.png": "/static/media/project_blog.cf0b6314cf0c6acaaf93.png",
     "static/media/about01.png": "/static/media/about01.080509de05322b7aafda.png",
@@ -50,10 +50,10 @@
     "index.html": "/index.html",
     "static/media/circle.svg": "/static/media/circle.ae5f84b3853b9e34aa83cf8dada715c5.svg",
     "main.d201af67.css.map": "/static/css/main.d201af67.css.map",
-    "main.1c99d0dd.js.map": "/static/js/main.1c99d0dd.js.map"
+    "main.4460f962.js.map": "/static/js/main.4460f962.js.map"
   },
   "entrypoints": [
     "static/css/main.d201af67.css",
-    "static/js/main.1c99d0dd.js"
+    "static/js/main.4460f962.js"
   ]
 }
