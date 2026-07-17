@@ -1,33 +1,11 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import { HiMenuAlt4, HiX, HiOutlineSun, HiOutlineMoon } from 'react-icons/hi';
 import { motion } from 'framer-motion';
 
 import './Navbar.scss';
 
-const Navbar = () => {
+const Navbar = ({ theme, toggleTheme }) => {
   const [toggle, setToggle] = useState(false);
-  const [theme, setTheme] = useState('light');
-
-  useEffect(() => {
-    const savedTheme = localStorage.getItem('theme') || 'light';
-    setTheme(savedTheme);
-    if (savedTheme === 'dark') {
-      document.body.classList.add('dark-theme');
-    } else {
-      document.body.classList.remove('dark-theme');
-    }
-  }, []);
-
-  const toggleTheme = () => {
-    const newTheme = theme === 'light' ? 'dark' : 'light';
-    setTheme(newTheme);
-    localStorage.setItem('theme', newTheme);
-    if (newTheme === 'dark') {
-      document.body.classList.add('dark-theme');
-    } else {
-      document.body.classList.remove('dark-theme');
-    }
-  };
 
   return (
     <nav className="app__navbar">
