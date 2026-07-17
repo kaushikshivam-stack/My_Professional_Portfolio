@@ -30,6 +30,7 @@ const projectImages = {
   'Aura Brew': projectAurabrew,
   'Starbucks Clone': projectStarbucks,
   'Community App': projectCommunity,
+  'AuraHealth Clinic': projectCommunity,
   'Sweet Shop': projectSweet,
   'Patisserie Shop': projectPatisserie,
 };
@@ -79,11 +80,11 @@ const fallbackWorks = [
     tags: ['Web App', 'React JS', 'UI/UX'],
   },
   {
-    title: 'Community App',
-    description: 'A community app built with React Native CLI.',
-    projectLink: 'https://google.com',
-    codeLink: 'https://google.com',
-    tags: ['Mobile App', 'UI/UX', 'React JS'],
+    title: 'AuraHealth Clinic',
+    description: 'A premium medical and healthcare services platform designed to redefine patient care with advanced clinical modules.',
+    projectLink: 'https://kaushikshivam-stack.github.io/Aura_Health-Clinic/',
+    codeLink: 'https://github.com/kaushikshivam-stack/Aura_Health-Clinic',
+    tags: ['UI/UX', 'Web App', 'React JS'],
   },
   {
     title: 'Patisserie Shop',
@@ -154,6 +155,18 @@ const projectOverrides = {
     description: 'A premium custom cakes bakery and patisserie website featuring rich UI/UX animations and clean layouts.',
     projectLink: 'https://kaushikshivam-stack.github.io/responsive-Patisserie-website/',
     codeLink: 'https://github.com/kaushikshivam-stack/responsive-Patisserie-website',
+  },
+  'Community App': {
+    title: 'AuraHealth Clinic',
+    description: 'A premium medical and healthcare services platform designed to redefine patient care with advanced clinical modules.',
+    projectLink: 'https://kaushikshivam-stack.github.io/Aura_Health-Clinic/',
+    codeLink: 'https://github.com/kaushikshivam-stack/Aura_Health-Clinic',
+  },
+  'AuraHealth Clinic': {
+    title: 'AuraHealth Clinic',
+    description: 'A premium medical and healthcare services platform designed to redefine patient care with advanced clinical modules.',
+    projectLink: 'https://kaushikshivam-stack.github.io/Aura_Health-Clinic/',
+    codeLink: 'https://github.com/kaushikshivam-stack/Aura_Health-Clinic',
   },
 };
 
