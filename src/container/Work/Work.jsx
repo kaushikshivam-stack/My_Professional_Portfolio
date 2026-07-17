@@ -18,6 +18,7 @@ import projectCommunity from '../../assets/project_community.png';
 import projectSweet from '../../assets/project_sweet.png';
 import projectPatisserie from '../../assets/project_patisserie.png';
 import projectAurabrew from '../../assets/project_aurabrew.png';
+import projectApexfitness from '../../assets/project_apexfitness.png';
 
 const projectImages = {
   'Modern UI/UX Website': projectUiux,
@@ -25,6 +26,7 @@ const projectImages = {
   'Ewalle wallet app': projectEwalle,
   SpaceX: projectSpacex,
   'Web3.0 Project': projectWeb3,
+  'Apex Fitness': projectApexfitness,
   'Blog Website': projectBlog,
   'Aura Brew': projectAurabrew,
   'MERN Memories': projectMern,
@@ -59,11 +61,11 @@ const fallbackWorks = [
     tags: ['Web App'],
   },
   {
-    title: 'Web3.0 Project',
-    description: 'A web 3.0 app built with React JS & Solidity.',
-    projectLink: 'https://google.com',
-    codeLink: 'https://google.com',
-    tags: ['Web App', 'React JS'],
+    title: 'Apex Fitness',
+    description: 'A high-performance gym and athletic conditioning website with BMI calculator, training programs, class schedules, and membership plans.',
+    projectLink: 'https://kaushikshivam-stack.github.io/apex-fitness/',
+    codeLink: 'https://github.com/kaushikshivam-stack/apex-fitness',
+    tags: ['UI/UX', 'Web App', 'React JS'],
   },
   {
     title: 'Aura Brew',
@@ -121,6 +123,18 @@ const projectOverrides = {
     description: 'A next-generation AI platform to accelerate innovation with advanced intelligence, blockchain tech, and cloud solutions.',
     projectLink: 'https://kaushikshivam-stack.github.io/Origin-Ai/',
     codeLink: 'https://github.com/kaushikshivam-stack/Origin-Ai',
+  },
+  'Web3.0 Project': {
+    title: 'Apex Fitness',
+    description: 'A high-performance gym and athletic conditioning website with BMI calculator, training programs, class schedules, and membership plans.',
+    projectLink: 'https://kaushikshivam-stack.github.io/apex-fitness/',
+    codeLink: 'https://github.com/kaushikshivam-stack/apex-fitness',
+  },
+  'Apex Fitness': {
+    title: 'Apex Fitness',
+    description: 'A high-performance gym and athletic conditioning website with BMI calculator, training programs, class schedules, and membership plans.',
+    projectLink: 'https://kaushikshivam-stack.github.io/apex-fitness/',
+    codeLink: 'https://github.com/kaushikshivam-stack/apex-fitness',
   },
   'Blog Website': {
     title: 'Aura Brew',
