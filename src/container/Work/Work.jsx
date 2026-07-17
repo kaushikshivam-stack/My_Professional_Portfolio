@@ -11,7 +11,7 @@ import projectEwalle from '../../assets/project_ewalle.png';
 import projectSpacex from '../../assets/project_spacex.png';
 import projectWeb3 from '../../assets/project_web3.png';
 import projectBlog from '../../assets/project_blog.png';
-import projectStarbucks from '../../assets/project_starbucks.png';
+import projectFuturepath from '../../assets/project_futurepath.png';
 import projectCommunity from '../../assets/project_community.png';
 import projectSweet from '../../assets/project_sweet.png';
 import projectPatisserie from '../../assets/project_patisserie.png';
@@ -29,8 +29,8 @@ const projectImages = {
   'Apex Fitness': projectApexfitness,
   'Blog Website': projectBlog,
   'Aura Brew': projectAurabrew,
-  'Starbucks Clone': projectStarbucks,
-  'FuturePath Consulting': projectStarbucks,
+  'Starbucks Clone': projectFuturepath,
+  'FuturePath Consulting': projectFuturepath,
   'Community App': projectCommunity,
   'AuraHealth Clinic': projectCommunity,
   'Sweet Shop': projectSweet,
