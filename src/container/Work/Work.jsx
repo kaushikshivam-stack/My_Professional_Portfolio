@@ -22,6 +22,7 @@ const projectImages = {
   'Modern UI/UX Website': projectUiux,
   'Origin.Ai': projectUiux,
   'Ewalle wallet app': projectEwalle,
+  CareerHive: projectEwalle,
   SpaceX: projectSpacex,
   'AI Interview Coach': projectSpacex,
   'Web3.0 Project': projectWeb3,
@@ -45,11 +46,11 @@ const fallbackWorks = [
     tags: ['UI/UX', 'Web App', 'React JS'],
   },
   {
-    title: 'Ewalle wallet app',
-    description: 'Ewalle wallet app built with React Native.',
-    projectLink: 'https://google.com',
-    codeLink: 'https://google.com',
-    tags: ['Mobile App', 'UI/UX', 'React JS'],
+    title: 'CareerHive',
+    description: 'India\'s smartest job discovery platform featuring advanced search filters, resume tools, and comprehensive job vacancy listings.',
+    projectLink: 'https://kaushikshivam-stack.github.io/CareerHive/',
+    codeLink: 'https://github.com/kaushikshivam-stack/CareerHive',
+    tags: ['UI/UX', 'Web App', 'React JS'],
   },
   {
     title: 'AI Interview Coach',
@@ -167,6 +168,18 @@ const projectOverrides = {
     description: 'A premium medical and healthcare services platform designed to redefine patient care with advanced clinical modules.',
     projectLink: 'https://kaushikshivam-stack.github.io/Aura_Health-Clinic/',
     codeLink: 'https://github.com/kaushikshivam-stack/Aura_Health-Clinic',
+  },
+  'Ewalle wallet app': {
+    title: 'CareerHive',
+    description: 'India\'s smartest job discovery platform featuring advanced search filters, resume tools, and comprehensive job vacancy listings.',
+    projectLink: 'https://kaushikshivam-stack.github.io/CareerHive/',
+    codeLink: 'https://github.com/kaushikshivam-stack/CareerHive',
+  },
+  CareerHive: {
+    title: 'CareerHive',
+    description: 'India\'s smartest job discovery platform featuring advanced search filters, resume tools, and comprehensive job vacancy listings.',
+    projectLink: 'https://kaushikshivam-stack.github.io/CareerHive/',
+    codeLink: 'https://github.com/kaushikshivam-stack/CareerHive',
   },
 };
 
